@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background:rgb(244, 244, 244);
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+.container{
+	width:1190px;
+	height:100%;
+	margin:0 auto;
+}
+.nav{
+	height:90px;
+	line-height:90px;
+}
+.logo,
+.menu,
+.search{
+	/*vertical-align:middle;*/
+	display:inline-block;
+}
+.search{
+	float:right;
+}
+.logo img{
+	width:171px;
+	height:37px;
+	vertical-align:middle;
+}
+.menu{
+	width:725px;
+	padding-left:100px;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
+.menu>li{
+	float:left;
+	margin:0 20px;
+}
+.menu>li:nth-child(2){
+	position:relative;
+}
+.menu ul{
+	position:absolute;
+	z-index:3;
+	background:white;
+	top:70px;
+	left:-15px;
+	width:100px;
+	height:0;
+	overflow:hidden;
+	line-height:30px;
+	transition:all 0.2s;
+	box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+.menu>li:hover ul{
+	height:60px;
+}
+.search{
+	font-size:0;
+}
+.search input{
+	width:250px;
+	height:30px;
+	outline:none;
+	font-size:14px;
+	border:1px solid #1c7bdb;
+	vertical-align:middle;
+}
+.search button{
+	width:32px;
+	height:30px;
+	outline:none;
+	border:none;
+	color:#fff;
+	font-size:14px;
+	background:#1c7bdb;
+	vertical-align:middle;
+}
+.rec_box{
+	width:1190px;
+	height:1127px;
+	background:white;
+	margin:0 auto;
+	padding:30px;
+}
+.rec_main{
+	font-family: "微软雅黑";
+	width:1130px;
+	height:1067px;
+	border:1px solid #DDDDDD;
+	padding:30px;
+}
+.rec_title{
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	color:#1C7BDB;
+	margin-bottom:20px;
+}
+.rec_banner{
+	width:1068px;
+	height:325px;
+	margin-bottom:44px;
+}
+#job{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom:20px;
+}
+.rec_title_small{
+	font-size: 18px;
+	margin-bottom: 15px;
+	color:#333333 ;
+}
+.rec_main>p:nth-child(5){
+	font-size: 16px;
+	line-height: 29px;
+	margin-bottom: 10px;
+	color:#595959;
+}
+#duty,#req{
+	font-size: 14px;
+	line-height: 24px;
+	color:#808080;
+	margin-bottom:20px ;
+}
+.rec_email{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 29px;
+	color:#1C7BDB;
+	margin-top:44px;
+}
+.rec_emails{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 29px;
+	color:#1C7BDB;
+	margin-top:10px;
+}

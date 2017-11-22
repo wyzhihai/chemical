@@ -1,0 +1,14 @@
+$(function(){
+	$.ajax({
+		type:'get',
+		url:'js/aboutus.json',
+		dataType:'json',
+		success:function(data){
+			//console.log(data.job);
+			//console.log(data.duty);
+			$("#job").html(data.job);
+			$("#duty").html(data.duty);
+			$("#req").html(data.req);
+		}
+	})
+})

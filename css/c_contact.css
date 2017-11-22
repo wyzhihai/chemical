@@ -1,0 +1,229 @@
+
+ *{
+   	   margin: 0;
+   	   padding: 0;
+   	   text-decoration: none;
+   }
+   body{
+   	background: #F4F4F4;
+   	min-width: 1133px;
+
+   }
+   a{
+  color:#333;
+  text-decoration:none;
+}
+.container{
+  width:1190px;
+  height:100%;
+  margin:0 auto;
+}
+.nav{
+  height:90px;
+  line-height:90px;
+}
+.logo,
+.menu,
+.search{
+  /*vertical-align:middle;*/
+  display:inline-block;
+}
+.search{
+  float:right;
+}
+.logo img{
+  width:171px;
+  height:37px;
+  vertical-align:middle;
+}
+.menu{
+  width:725px;
+  padding-left:100px;
+  list-style:none;
+  display:inline-block;
+  text-align:center;
+  vertical-align:middle;
+}
+.menu>li{
+  float:left;
+  margin:0 20px;
+}
+.menu>li:nth-child(2){
+  position:relative;
+}
+.menu ul{
+  position:absolute;
+  z-index:3;
+  background:white;
+  top:70px;
+  left:-15px;
+  width:100px;
+  height:0;
+  overflow:hidden;
+  line-height:30px;
+  transition:all 0.2s;
+  box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+.menu>li:hover ul{
+  height:60px;
+}
+.search{
+  font-size:0;
+}
+.search input{
+  width:250px;
+  height:30px;
+  outline:none;
+  font-size:14px;
+  border:1px solid #1c7bdb;
+  vertical-align:middle;
+}
+.search button{
+  width:32px;
+  height:30px;
+  outline:none;
+  border:none;
+  color:#fff;
+  font-size:14px;
+  background:#1c7bdb;
+  vertical-align:middle;
+}
+ .contact_box{
+   	  width: 1190px;
+   	  margin: 0 auto;
+   	  box-sizing: border-box;  	  
+   	  background: white;
+   	  padding: 30px 0px;
+  	  overflow: hidden;
+   }
+  .contact_Cboxs{
+  	width: 95%;
+  	margin: 0px auto;
+  	border: 1px solid #DBDBDB;  
+  	overflow: hidden;
+  	position: relative;	
+   }
+  .contact_Cboxs>div{
+      float: left;
+  }
+  .contact_sublist{
+  	padding-left:43px ;
+  	margin-bottom: 40px;
+  }
+ .contact_sublist .contact_h2{
+ 	width: 431px;
+  	height: 56px;
+  	font-family: "微软雅黑";
+  	font-size: 17px;
+  	color: #1C7BDB;
+  	margin: 40px 0px 30px 0;
+  }
+  .c_sublist_nav p{
+  	   font-family: "微软雅黑";
+  	   font-size: 16px;
+  	   color: #666666;
+  	   margin: 17px 0 5px 0;
+  }
+  .c_sublist_nav p span{
+  	   color: red;
+  	
+  }
+ .c_sublist_phone textarea{
+ 	width:390px ;
+ }
+ .c_sublist_nav input{
+ 	width: 381px;
+ 	height: 30px;
+ 	padding-left: 5px;
+ 	color: #666666;
+ }
+ .c_sublist_email{
+ 	position: relative;
+ }
+ .c_sublist_email  .c_select{
+ 	position: absolute;
+ 	top: 26px;
+ 	right: 41px;
+ 	height: 30px;
+ 	/*background: turquoise;*/
+ 	width: 100px;
+ }
+   .c_sublist_nav .btn{
+   	width: 30%;
+   	height: 40px;
+   	background: #1C7CDB;
+   	font-size: 20px;
+   	color: white; 
+   	text-align: center;
+   	line-height: 40px;
+   	border: none;
+   }
+  .contact_Company{
+      width: 57%;
+}
+
+.c_Company_imgShow img{
+	height: 323px;
+	width: 100%;
+}
+.c_sublist_phone{
+	margin-bottom: 20px;
+}
+.c_Company_addreas{
+	margin: 55px 0px 68px 0px;
+}
+.c_Company_addreas h3{
+	color: #1C7CDB;
+	font-size: 17px;
+	font-family: "微软雅黑";
+	margin: 24px 0px;
+	
+}
+.c_Company_addreas p{
+	color: #666666;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	
+}
+.c_sublist_submit{
+	position: relative;
+}
+.c_sublist_submit .span{
+	display: inline-block;
+	width:5px ;
+	background: navajowhite;
+	border-radius:5px ;
+	position: absolute;
+	bottom: 5px;	
+	height: 20px;
+	opacity: 0;
+	animation: submitChange 0.5s linear;	
+}
+.c_sublist_submit span:nth-child(1){
+	left: 150px;
+	animation-delay: 0.5s;
+}
+.c_sublist_submit span:nth-child(2){
+	left: 160px;
+	animation-delay: 0.7s;
+}
+.c_sublist_submit span:nth-child(3){
+	left: 170px;
+
+	animation-delay: 0.9s;
+}
+
+@keyframes submitChange{
+	50%{
+		height: 30px;
+	    opacity: 0.7;
+		
+	}
+	100%{
+		height: 20px;
+	    opacity: 1;
+		
+		
+	}
+}

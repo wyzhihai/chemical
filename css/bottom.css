@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+footer{
+	width:100%;
+	height:404px;
+	background:#1D212A;
+	padding-top: 80px;
+}
+.footer_box{
+	width:1190px;
+	height:324px;
+	margin:0 auto;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	position: relative;
+}
+.bottom_news{
+	width:361px;
+	height:294px;
+	display:flex;
+
+	flex-direction:column;
+	justify-content:space-around;
+}
+.bottom_news>div{
+	flex:1;
+	
+}
+.bottom_news img{
+	filter: grayscale(100%);
+	transition: all 0.5s;
+	float: left;
+	margin-right: 15px;
+}
+.bottom_news>div:nth-child(1) img:hover{
+	filter: grayscale(0);
+}
+.bottom_news>div:nth-child(3) img{
+	width:100px;
+	height:60px;
+	background: cover;
+}
+.news_link{
+	font-size: 13px;
+	line-height: 13px;
+	font-family: "微软雅黑";
+	color:#DBDBDB;
+}
+.bottom_news div span,.bottom_news div span a{
+	font-size: 12px;
+	line-height: 12px;
+	color:#686868;
+}
+.bottom_address img{
+	width:318px;
+	height:115px;
+	margin-bottom: 25px;
+}
+.bottom_address h4{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: normal;
+	color:#FFFFFF;
+	margin-bottom: 25px;
+}
+.bottom_address p{
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #A9A9A9;
+	line-height: 28px;
+}
+.bottom_address p span{
+	color:#3676DC;
+	display: inline-block;
+	width:20px;
+}
+#name,#mail,#pho
+{
+	width:364px;
+	height:40px;
+	background: #3B3B3B;
+	line-height: 40px;
+	padding-left:3px;
+	margin:0 0 10px ;
+}
+#noname,#nomail,#errmail
+{
+	width:130px;
+	height:24px;
+	font-size: 12px;
+	line-height: 24px;
+	color:white;
+	text-align: center;
+	background:#D64A49;
+	display: none;
+	margin:0 0 15px ;
+}
+.war{
+	margin-right:5px ;
+}
+.bottom_message input{
+	width:360px;
+	background: #3B3B3B;
+	border: none;
+	outline: none;
+	color:white;
+}
+#btn{
+	font-size: 14px;
+	width:110px;
+	height:36px;
+	text-align: center;
+	background: dodgerblue;
+	cursor:pointer;
+	margin-top:15px;
+}
+#btn:hover{
+	background:#1A5ABA;
+}
+#sus{
+	width:350px;
+	height:200px;
+	font-size:30px ;
+	text-align: center;
+	position: absolute;
+	color:white;
+	padding-top: 30px;
+	background: rgba(0,0,0,0.6);
+	border-radius:10px;
+	top:0;
+	left:410px;
+	display: none;
+}
+#sus>span{
+	font-size:70px ;
+}
+#sus p{
+	margin-top: 20px;
+}

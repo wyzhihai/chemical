@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 微软雅黑;
+}
+.nav a{
+	color:#333;
+	text-decoration:none;
+}
+.nav .container{
+	width:1190px;
+	height:100%;
+	margin:0 auto;
+}
+.nav{
+	height:90px;
+	line-height:90px;
+	background:#f4f4f4;
+}
+.logo,
+.menu,
+.search0{
+	/*vertical-align:middle;*/
+	display:inline-block;
+}
+.search0{
+	float:right;
+}
+.logo img{
+	width:171px;
+	height:37px;
+	vertical-align:middle;
+}
+.menu{
+	width:725px;
+	padding-left:100px;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
+.menu>li{
+	float:left;
+	margin:0 20px;
+}
+.menu>li:nth-child(2){
+	position:relative;
+}
+.menu ul{
+	position:absolute;
+	z-index:3;
+	background:white;
+	top:70px;
+	left:-15px;
+	width:100px;
+	height:0;
+	overflow:hidden;
+	line-height:30px;
+	transition:all 0.2s;
+	box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+.menu>li:hover ul{
+	height:60px;
+}
+.search0{
+	font-size:0;
+}
+.search0 input{
+	width:250px;
+	height:30px;
+	outline:none;
+	font-size:14px;
+	border:1px solid #1c7bdb;
+	vertical-align:middle;
+}
+.search0 button{
+	width:32px;
+	height:30px;
+	outline:none;
+	border:none;
+	color:#fff;
+	font-size:14px;
+	background:#1c7bdb;
+	vertical-align:middle;
+}
+
+.container{
+	width: 100%;
+	height: 866px;
+	background: #f4f4f4;
+}
+.container_box{
+	width: 1190px;
+	height: 866px;
+	margin: 0 auto;
+}
+.container_box .left{
+	width: 866px;
+	padding: 0 46px 0 40px;
+	float: left;
+	background: white;
+}
+.container_box .top{
+	width: 784px;
+	height: 36px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-top: 29px;
+}
+.container_box .top .prev,.next{
+	display: inline-block;
+	color: #274E91;
+	font-size: 12px;
+	line-height: 36px;
+}
+
+.container_box .top .prev{
+	float: left;
+	text-align: left;
+}
+.container_box .top .next{
+	float: right;
+	text-align: right;
+}
+.container_box .top .prev:before{
+	display:inline-block;
+	content:"←";
+	margin-right: 10px;
+}
+.container_box .top .next:after{
+	display:inline-block;
+	content:"→";
+	margin-left: 10px;
+}
+.container_box .title{
+	color: #4c7cc3;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 37px 0 20px 0;
+} 
+.container_box .times{
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #1e73be;
+}
+.container_box .times i{
+	font-size: 8px;
+	color: #999999;	
+}
+.container_box .times .clock{
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+.container_box .times .release{
+	display: inline-block;
+	float: left;
+	color: #999999;
+}
+.container_box .share{
+	height: 16px;
+	margin: 43px 0 21px 0;
+}
+.container_box .wrapper_img{
+	width: 640px;
+	height: 201px;
+}
+.container_box .wrapper_img img{
+	height:100%;
+}
+.container_box .share_img{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 4px;
+}
+.container_box .content{
+	height: 300px;
+	margin-top: 50px;
+	color: #808080;
+	font-size: 14px;
+	line-height: 25px;
+}
+.container_box .right{
+	width: 230px;
+	height: 420px;
+	padding: 0 24px 0 24px;
+	float: right;
+	background: #e8e8e8;
+}
+.container_box .right .search_text{
+	font-size: 16px;
+	height: 32px;
+	line-height: 32px;
+	color: #fd8704;
+	margin-top: 30px;
+}
+.search{
+	width: 166px;
+	height: 28px;
+	border: 1px solid #c9c9c9;
+	border-radius: 3px;
+	float: left;
+	margin-top: 26px;
+}
+.search input{
+	width: 134px;
+	height: 26px;
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+}
+.search button{
+	width: 30px;
+	height: 26px;
+	background: white;
+	border: none;
+	outline: none;
+	float: left;
+	cursor: pointer;
+	color: #fd8d24;
+}
+.right .info{
+	float: left;
+	font-size: 12px;
+	line-height: 28px;
+	margin-top: 15px;
+}
+.right .info li{
+	height:28px;
+	overflow:hidden;
+	transition: all .6s ease;
+}
+.right .info a{
+	color: #1e73c7;
+}
+.right .info i{
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background: #6d6d6d;
+	margin: 6px 4px 3px 2px;
+}
+.right .info li:hover i{
+	background: #8d9095;
+}
+.right .info li:hover a{
+	color: #000;
+}
